@@ -12,7 +12,7 @@
 
   <style TYPE="text/css">
     body {
-      background-image: url(./img/rover_selfie_2.png);
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%),url(./img/Hayabusa2TouchdownatCrater.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -25,7 +25,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="./index.html">Raspberry Pi Zero W
       <img src="./img/raspberry-pi-logo.png" width="25px">
     </a>
@@ -37,7 +37,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="./index.html">Home</a>
+          <a class="nav-link" href="./index.php">Home</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="./library.php">MagPi Magazine
@@ -46,9 +46,6 @@
         </li>
 	 <li class="nav-item">
           <a class="nav-link" href="./library2.php">HelloWorld Magazine</a>
-        </li>
-        <li>
-          <a class="nav-link" href="./WebCodeBlog" target="_blank">WebCodeBlog</a>
         </li>
         <li>
           <a class="nav-link" href="./phpmyadmin" target="_blank">PHPMyAdmin</a>
