@@ -6,6 +6,11 @@
   <meta name="author" content="SitePoint">
   <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="./css/site.css">
+  <link rel="stylesheet" href="./content/datatables.min.css">
+  <link rel="stylesheet" href="./content/DataTables-1.10.18/css/dataTables.bootstrap4.min.css">
+  <script src="./js/jquery-3.3.1.js"></script>
+  <script src="./js/bootstrap.js"></script>
+  <script src="./content/datatables.min.js"></script>
   <!-- <style TYPE="text/css">
     body {
       background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%),url(./img/Hayabusa2TouchdownatCrater.jpg);

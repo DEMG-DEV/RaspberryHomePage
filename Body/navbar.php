@@ -19,6 +19,9 @@
         <li class="nav-item">
           <a class="nav-link" href="./HelloWorld-Magazine.php">HelloWorld Magazine</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./TemperatureDataVisualizer.php">Temperature Data</a>
+        </li>
         <li>
           <a class="nav-link" href="./phpmyadmin" target="_blank">PHPMyAdmin</a>
         </li>
