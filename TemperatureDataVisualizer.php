@@ -9,7 +9,7 @@ if (!$conn) {
     die("Can't connect to MySQL: " . mysqli_connect_error());
 }
 
-$sql = 'SELECT * from temperatureData';
+$sql = 'SELECT temperature_id, temperature_data, temperature_datetime from temperatureData';
 
 $query = mysqli_query($conn, $sql);
 
