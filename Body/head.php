@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="./css/site.css">
   <link rel="stylesheet" href="./content/datatables.min.css">
-  <link rel="stylesheet" href="./content/DataTables-1.10.18/css/dataTables.bootstrap4.min.css">
   <script src="./js/jquery-3.3.1.js"></script>
   <script src="./js/bootstrap.js"></script>
   <script src="./content/datatables.min.js"></script>

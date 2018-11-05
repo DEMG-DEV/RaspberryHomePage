@@ -33,16 +33,16 @@ if (!$query) {
 
 <div class="container" style="margin-top: 70px">
 
+    <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Temperature</th>
+                <th>Date Time</th>
+            </tr>
+        </thead>
+        <tbody>
     <?php
-echo '<table id="example" class="display" style="width:100%">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Temperature</th>
-            <th>Date Time</th>
-        </tr>
-        <tbody>';
-
 while ($row = mysqli_fetch_array($query)) {
     echo '<tr>
                 <td>' . $row['temperature_id'] . '</td>
@@ -50,16 +50,15 @@ while ($row = mysqli_fetch_array($query)) {
                 <td>' . $row['temperature_datetime'] . '</td>
             </tr>';
 }
-echo '
-        </tbody>
-    </table>';
-
 // Should we need to run this? read section VII
 mysqli_free_result($query);
 
 // Should we need to run this? read section VII
 mysqli_close($conn);
 ?>
+
+        </tbody>
+    </table>
 
     <?php include "./Body/footer.php"?>
 </div>
