@@ -4,7 +4,6 @@
   <title>The RasPiZeroW WebPage</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
-  <link rel="shortcut icon" type="image/png" href="./img/raspberry-pi-logo.png"/>
   <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="./css/site.css">
   <link rel="stylesheet" href="./content/datatables.min.css">
